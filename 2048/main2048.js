@@ -48,6 +48,7 @@ function newgame(){
 	$('.gameover').css({
 		display: 'none'
 	});
+	$('#score').text('0');
 	// Random generate 2 numbers
 	generateOneNumber();
 	generateOneNumber();
