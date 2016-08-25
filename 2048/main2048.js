@@ -20,6 +20,12 @@ function prepareForMobile(){
 		cellSideLength = 100;
 	}
 
+	if(documentWidth < 500){
+		$('.info').css({
+			width: '300px'
+		});
+	}
+
 	$('#grid_container').css('width', gridContainerWidth-2*cellSpace);
 	$('#grid_container').css('height', gridContainerWidth-2*cellSpace);
 	$('#grid_container').css('padding', cellSpace);

@@ -69,3 +69,26 @@ header p{
 	text-align: center;
 	position: absolute;
 }
+
+.info{
+	width: 450px;
+	color: #bbada0;
+	font-weight: bold;
+	margin: 0 auto;
+	padding-bottom: 15px;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.info .instruction{
+	margin-bottom: 15px;
+}
+
+.info p a{
+	color: #bbada0;
+	text-decoration: none;
+}
+
+.info p a:hover{
+	border-bottom: 1px solid #bbada0;
+}
