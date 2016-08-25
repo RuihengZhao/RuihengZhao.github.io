@@ -29,13 +29,13 @@ $(document).ready(function() {
     if (Sys.safari) document.write('Safari');
     */
    
-	
+	/*
 	$('.zoom').magnify({
         onload: function() {
           console.log('Magnification powers activated!');
         }
     });
-
+    */
 
 	var screenwidth = document.body.clientWidth;
 	if (screenwidth < 1024) {
