@@ -461,6 +461,7 @@ a{
 	background: #FFF;
 	color: #000;
 	font-weight: normal;
+	margin-top: 5px;
 	padding: 5px 10px;
 }
 
@@ -612,7 +613,7 @@ a{
 	width: 30%;
 	height: 3%;
 	left: 35%;
-	top: 595%;
+	top: 593%;
 	overflow: hidden;
 	font-size: 18px;
 	//background: pink;
@@ -647,6 +648,10 @@ a{
 		left: 5%;
 		top: 23%;
 	}
+
+	#banner .name-wrap h1{
+		font-size: 60px;
+	}
 	
 	.profile-content{
 		width: 90%;
@@ -670,6 +675,10 @@ a{
 		font-size: 18px;
 	}
 
+	.next-slide{
+		display: none;
+	}
+
 	.Motto{
 		background-position: 55% 0%;
 	}
@@ -680,6 +689,7 @@ a{
 		top: 225%;
 		left: 5%;
 		font-size: 30px;
+		letter-spacing: 0.1em;
 		//background-color: red;
 	}
 
@@ -706,7 +716,7 @@ a{
 	}
 
 	.Hobby .hobby-content{
-		font-size: 20px;
+		font-size: 18px;
 		margin: 20% 3%;
 	}
 
