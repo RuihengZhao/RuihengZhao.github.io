@@ -1,2 +1,1 @@
-# RuihengZhao.github.io
-<h1> Please visit <a>ruihengzhao.com</a>.</h1>
+#Please visit [ruihengzhao.com](ruihengzhao.com). 
