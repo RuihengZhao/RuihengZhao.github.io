@@ -1,0 +1,931 @@
+.no-js #loader { display: none;  }
+
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+
+.se-pre-con {
+	position: fixed;
+	text-align: center;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(imgs/Preloader.gif) center no-repeat #fff;
+}
+
+.se-pre-con p{
+	position: fixed;
+	font-size: 25px;
+	width: 50%;
+	left: 25%;
+	top: 35%;
+	//background: #000;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "rh-font","Helvetica Neue",Helvetica,Arial,sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+@font-face {
+  font-family: "rh-font";
+  src: url(font/junge-regular-webfont.eot);
+  src: url(font/junge-regular-webfont.eot?#iefix) format('embedded-opentype'), 
+  	   url(font/junge-regular-webfont.woff) format('woff'), 
+  	   url(font/junge-regular-webfont.ttf) format('truetype'), 
+  	   url(font/junge-regular-webfont.svg#jungeregular) format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+	font-family: "rh-icon";
+	src: url("icons/icomoon.eot");
+	src: url("icons/icomoon.eot?#iefix") format("embedded-opentype")
+		 ,url("icons/icomoon.woff") format("woff")
+		 ,url("icons/icomoon.ttf") format("truetype")
+		 ,url("icons/icomoon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.rh-icon{
+	font-family: "rh-icon";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 64px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+#menuicon{
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 101;
+	padding: 20px 20px;
+	background-color: #000;
+}
+
+#menuicon a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+#menuicon img{
+	width: 20px;
+	display: block;
+}
+
+#fullpageMenu{
+	position: fixed;
+	top: 0;
+	right: -202px;
+	bottom: 0;
+	border-left: 2px solid #bfbfbf;
+	z-index: 999;
+	font-size: 14px;
+	width: 200px;
+	background: #FFF;
+	color: #000;
+}
+
+#fullpageMenu ul{
+	padding: 20px;
+	text-align: right;
+}
+
+#fullpageMenu .closenav{
+	margin-top: 50px;
+}
+
+#fullpageMenu .closenav a{
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+}
+
+#fullpageMenu .closenav a:hover{
+	background: #FFF;
+}
+
+#fullpageMenu .nav{
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-weight: 500;
+	margin-top: 20px;
+}
+
+#fullpageMenu ul li a{
+	padding: 5px;
+	display: inline-block;
+	color: #000;
+	width: 100%;
+}
+
+#fullpageMenu ul li a:hover{
+	background: #d9d9d9;
+}
+
+#tip{
+	position: fixed;
+	bottom: 0;
+	left: 20px;
+	line-height: 50px;
+	color: #FFF;
+	font-size: 12px;
+	text-align: right;
+}
+
+#tip .directions{
+	line-height: 1;
+	margin-right: 5px;
+	display: inline-block;
+}
+
+#tip .directions kbd{
+	border: 1px solid #FFF;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-o-border-radius: 2px;
+	-khtml-border-radius: 2px;
+	-ms-border-radius: 2px;
+	background-clip: padding-box;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	overflow: hidden;
+	text-align: center;
+	width: 15px;
+	height: 8px;
+	line-height: 10px;
+	display: inline-block;
+	font-size: 8px;
+	font-weight: 100;
+}
+
+#tip .directions .updown{
+	display: inline-block;
+}
+
+.Home{
+	background-image: url('imgs/background imgs/homepage.jpg');
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.Profile{
+	text-align: center;
+}
+
+.sub-heading{
+	font-size: 18px;
+	line-height: 30px;
+	margin: 30px auto;
+}
+
+.shadow{
+	background: rgba(0,0,0,0.6);
+	top: 25%;
+	bottom: 25%;
+	overflow: hidden;
+	height: 50%;
+	padding: 2.5%;
+}
+
+#banner{
+	text-align: center;
+	margin: 0px auto;
+	position: relative;
+	color: #FFF;
+	max-width: 400px;
+	position: fixed;
+	height: 40%;
+	width: 25%;
+	top: 30%;
+	left: 39%;
+}
+
+#banner .name-wrap{
+	border-top: 2px solid #FFF;
+	border-bottom: 2px solid #FFF;
+}
+
+#banner .name-wrap h1{
+	margin: 12px 0;
+	font-size: 70px;
+}
+
+#infoBox{
+	overflow: hidden;
+	text-align: center;
+}
+
+.button{
+	display:block;
+    border:2px solid rgba(255,255,255,0.8);
+    padding: 15px 10px;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    margin:20px 20px;
+    font-weight:bold;
+    font-size:18px;
+    text-decoration:none;
+    text-transform:uppercase;
+    color:#FFF;
+    -moz-transition:ease 0.4s;
+    -o-transition:ease 0.4s;
+    -webkit-transition:ease 0.4s;
+    transition:ease 0.4s;
+    position:relative;
+}
+
+.button:hover{
+	border:2px solid #fff;
+}
+
+.button .line{
+	position:absolute;
+    background:none; 
+    -moz-transition:ease 0.4s;
+    -o-transition:ease 0.4s;
+    -webkit-transition:ease 0.4s;
+    transition:ease 0.4s;
+}
+
+.button:hover .line{
+	background:#fff;
+}
+
+.button .line-top{
+	width:0px;
+    height:2px;
+    left:-110%;
+    top:-2px;
+}
+
+.button:hover .line-top{
+	width:100%;
+    left:-2px;}
+
+
+.button .line-right{
+	width:2px;
+    height:0px;
+    right:-2px;
+    top:-110%;
+}
+
+.button:hover .line-right{
+	height:100%;
+    top:-2px;
+}
+
+
+.button .line-bottom{
+	width:2px;
+    height:0px;
+    left:-2px;
+    bottom:-110%;
+}
+
+.button:hover .line-bottom{
+	height:100%;
+    bottom:-2px;
+}
+
+.button .line-left{
+	width:0px;
+    height:2px;
+    right:-110%;
+    bottom:-2px;}
+
+.button:hover .line-left{
+	width:100%;
+    right:-2px;
+}
+
+.Profile{
+}
+
+.profile-content{
+	position: fixed;
+	width: 60%;
+	height: 50%;
+	top: 125%;
+	left: 20%;
+	text-align: center;
+	color: #000;
+}
+
+.profile-content .selfie{
+	height: 40%;
+	background: #FFF;
+	overflow: hidden;
+	//background: red;
+}
+
+.profile-content .selfie img{
+	height: 100%;
+}
+
+.profile-content .introduction{
+	height: 60%;
+	color: #00;
+	font-size: 20px;
+	padding-top: 10px;
+	overflow: hidden;
+	position: absolute;
+	//background: blue;
+}
+
+.profile-content .introduction .profile-content1{
+	position: relative;
+	left: -100%;
+	margin-bottom: 20px;
+}
+
+.profile-content .introduction .profile-content2{
+	position: relative;
+	right: -100%;
+	margin-bottom: 20px;
+}
+
+.profile-content .next-slide{
+	position: fixed;
+	width: 5%;
+	height: 5%;
+	top: 192.5%;
+	left: 47.5%;
+	text-align: center;
+}
+
+.profile-content .next-slide a i{
+	font-size:60px; 
+	color:#000; 
+	font-weight: 100;
+	-moz-transition:ease 0.4s;
+    -o-transition:ease 0.4s;
+    -webkit-transition:ease 0.4s;
+    transition:ease 0.4s;
+}
+
+.profile-content .next-slide a:hover i{
+	font-size: 70px;
+	font-weight: 200;
+}
+
+.Motto{
+	background-image: url('imgs/background imgs/motto.jpg');
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.Motto .motto-content{
+	text-align: center;
+	position: fixed;
+	width: 60%;
+	height: 25%;
+	top: 237.5%;
+	left: 20%;
+	color: #FFF;
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: 0.2em;
+	overflow: hidden;
+	//background: #333;
+}
+
+.works{
+	background: #FFF;
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+	letter-spacing: 0.4em;
+}
+
+.works p a i{
+	font-size: 45px;
+	color: #000;
+	font-weight: 100;
+	-moz-transition:ease 0.4s;
+    -o-transition:ease 0.4s;
+    -webkit-transition:ease 0.4s;
+    transition:ease 0.4s;
+}
+
+.works p a:hover i{
+	font-size: 50px;
+	font-weight: 200;
+}
+
+.general{
+	text-align: center;
+}
+
+.general .demo img{
+	height: 50%;
+	width: 50%;
+}
+
+
+.general .project_description{
+	margin: 1% 20%;
+}
+
+.general a{
+	display: inline-block;
+	background: #FFF;
+	color: #000;
+	font-weight: normal;
+	padding: 5px 10px;
+}
+
+.web_game{
+	background: #5cd65c;
+}
+
+.monoplay{
+	background: #ffdb4d;
+}
+
+.compiler{
+	background: #4dffff;
+}
+
+.sharepoint{
+	background: #ff8566;
+}
+
+.more-coming{
+	background: #FFF;
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+	letter-spacing: 0.4em;
+}
+
+.Hobby{
+
+}
+
+.Hobby .hobby-content{
+	color: #FFF;
+	text-align: center;
+	font-size: 25px;
+	font-weight: normal;
+	margin: 5% 15%;
+	letter-spacing: 0em;
+}
+
+.Hobby .hobby-content h1{
+	margin: 0;
+	padding: 0;
+	letter-spacing: 0.2em;
+	font-weight: bold;
+}
+
+.Hobby .hobby-content p{
+	margin-top: 23px;
+}
+
+.Hobby .hobby-content .showmore{
+	margin-top: 30px;
+}
+
+.Hobby .hobby-content a{
+	border-bottom: 1px solid #FFF;
+	font-size: 20px;
+	-moz-transition:ease 0.3s;
+    -o-transition:ease 0.3s;
+    -webkit-transition:ease 0.3s;
+    transition:ease 0.3s;
+}
+
+.Hobby .hobby-content a:hover{
+	border-bottom: none;
+	color: #bfbfbf;
+}
+
+.Hobby .photographer{
+	background-image: url('imgs/background imgs/photographer.jpg');
+	background-position: 0% 60%;
+	text-align: center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.Hobby .badminton{
+	background-image: url('imgs/background imgs/badminton.jpg');
+	background-position: 0% 10%;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.Hobby .society{
+	background-image: url('imgs/background imgs/sociaty.jpg');
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.Contact{
+	text-align: center;
+}
+
+.Contact .contact-content{
+	font-weight: bold;
+	font-size: 70px;
+	letter-spacing: 0.2em;
+	//background: red;
+}
+
+.Contact .links{
+	//background: yellow;
+}
+
+.Contact .links ul{
+	display: block;
+}
+
+.Contact .links ul li{
+	display: inline-block;
+	font-size: 20px;
+}
+
+.Contact .links ul li a{
+	color: #000;
+	margin-right: 15px;
+	-moz-transition:ease 0.3s;
+    -o-transition:ease 0.3s;
+    -webkit-transition:ease 0.3s;
+    transition:ease 0.3s;
+}
+
+.Contact .links ul li a:hover{
+	border-bottom: 1px solid #000;
+	color: #777777;
+}
+
+.Contact .resume{
+	margin-top: 30px;
+	//background: green; 
+}
+
+.Contact .resume a{
+	color: #000;
+}
+
+.Contact .copyright{
+	position: fixed;
+	width: 30%;
+	height: 3%;
+	left: 35%;
+	top: 595%;
+	overflow: hidden;
+	font-size: 18px;
+	//background: pink;
+}
+
+.Contact .copyright p a{
+	color: #000;
+}
+
+/*Main One - iPhone6*/
+@media screen and (max-width: 650px){ 
+	#tip{
+		display: none;
+	}
+
+	#fullpageMenu{
+		width: 150px;
+	}
+
+	.Home{
+		background-position: 5% 0%;
+	}
+
+	.shadow{
+		height: 70%;
+		top: 15%;
+	}
+
+	#banner{
+		width: 90%;
+		height: 60%;
+		left: 5%;
+		top: 23%;
+	}
+	
+	.profile-content{
+		width: 90%;
+		height: 90%;
+		top: 105%;
+		left: 5%;
+		//background: red;
+	}
+
+	.profile-content .selfie{
+		height: 30%;
+	}
+
+	.profile-content .introduction{
+		height: 70%;
+		//background: blue;
+	}
+
+	.profile-content .introduction p{
+		margin-bottom: 0;
+		font-size: 18px;
+	}
+
+	.Motto{
+		background-position: 50% 0%;
+	}
+
+	.Motto .motto-content{
+		width: 90%;
+		height: 50%;
+		top: 225%;
+		left: 5%;
+		font-size: 30px;
+		//background-color: red;
+	}
+
+	.works{
+		font-size: 35px;
+		//background-color: red;
+	}
+
+	.works p a i{
+		font-size: 35px;
+	}
+
+	.general .demo img{
+		height: 150%;
+		width: 80%;
+	}
+
+	.general .project_description{
+		margin: 1% 5%;
+	}
+
+	.more-coming{
+		font-size: 35px;
+	}
+
+	.Hobby .hobby-content{
+		font-size: 20px;
+		margin: 20% 3%;
+	}
+
+	.Hobby .hobby-content h1{
+		letter-spacing: 0.1em;
+	}
+
+	.Hobby .photographer{
+		background-position: 45% 0%;
+	}
+
+	.Hobby .badminton{
+		background-position: 45% 0%;
+	}
+
+	.Hobby .society{
+		background-position: 45% 0%;
+	}
+
+	.Contact .contact-content{
+		font-size: 50px;
+		letter-spacing: 0.1em;
+	}
+
+	.Contact .links ul li{
+		font-size: 18px;
+	}
+
+	.Contact .links ul li a{
+		margin-right: 5px;
+	}
+
+	.Contact .resume{
+		margin-top: 25px;
+		font-size: 15px;
+	}
+
+	.Contact .copyright{
+		width: 95%;
+		left: 2.5%;
+		font-size: 15px;
+	}
+}
+
+/*Small Changes - iPhone6 Plus*/
+@media screen and (min-width: 400px) and (max-width: 650px){ 
+	.profile-content{
+		width: 90%;
+		height: 70%;
+		top: 115%;
+		left: 5%;
+		//background: red;
+	}
+
+	.Hobby .hobby-content{
+		font-size: 20px;
+		font-weight: normal;
+		margin: 25% 3%;
+		letter-spacing: 0em;
+	}
+
+	.Contact .contact-content{
+		font-size: 55px;
+	}
+}
+
+/*Small Changes - iPhone5*/
+@media screen and (max-width: 350px){
+	#menuicon{
+		padding: 15px 15px;
+	}
+
+	#fullpageMenu{
+		width: 130px;
+	}
+
+	#banner .name-wrap h1{
+		font-size: 45px;
+	}
+
+	.button{
+		font-size: 15px;
+	}
+
+	.profile-content .introduction p{
+		font-size: 16px;
+	}
+
+	.Motto .motto-content{
+		font-size: 23px;
+	}
+
+	.works{
+		font-size: 25px;
+	}
+
+	.works p a i{
+		font-size: 25px;
+	}
+
+	.more-coming{
+		font-size: 30px;
+	}
+
+	.Hobby .hobby-content{
+		font-size: 18px;
+		margin: 15% 3%;
+	}
+
+	.Hobby .hobby-content h1{
+		font-size: 33px;
+	}
+
+	.Contact .contact-content{
+		font-size: 45px;
+		letter-spacing: 0.1em;
+	}
+
+	.Contact .links ul li{
+		font-size: 15px;
+	}
+
+	.Contact .links ul li a{
+		margin-right: 3px;
+	}
+
+	.Contact .resume{
+		margin-top: 25px;
+		font-size: 13px;
+	}
+
+	.Contact .copyright{
+		width: 95%;
+		left: 2.5%;
+		font-size: 13px;
+	}
+}
+
+/*Main TWO - iPad*/
+@media screen and (min-width: 650px) and (max-width: 1024px){
+	#tip{
+		display: none;
+	}
+
+	.Home{
+		background-position: 5% 0%;
+	}
+
+	#banner{
+		width: 50%;
+		height: 38%;
+		left: 25%;
+		top: 31%;
+		//background: red;
+	}
+
+	.profile-content{
+		width: 70%;
+		left: 15%;
+	}
+
+	.Motto{
+		background-position: 50% 0%;
+	}
+
+	.Motto .motto-content{
+		width: 75%;
+		left: 12.5%;
+		height: 40%;
+		top: 230%;
+		font-size: 35px;
+	}
+
+	.more-coming{
+		font-size: 40px;
+	}
+
+
+	.general .demo img{
+		height: 150%;
+		width: 80%;
+	}
+
+	.general .project_description{
+		margin: 1% 5%;
+	}
+
+	.more-coming{
+		font-size: 35px;
+	}
+
+	.Hobby .hobby-content{
+		font-size: 20px;
+		margin: 20% 3%;
+	}
+
+	.Hobby .hobby-content h1{
+		letter-spacing: 0.1em;
+	}
+
+	.Hobby .photographer{
+		background-position: 45% 0%;
+	}
+
+	.Hobby .badminton{
+		background-position: 45% 0%;
+	}
+
+	.Hobby .society{
+		background-position: 45% 0%;
+	}
+
+	.Contact .copyright{
+		width: 60%;
+		left: 20%;
+		font-size: 18px;
+	}
+}
+
+/*Main Three - Small PC screen*/
+@media screen and (min-width: 1024px) and (max-width: 1920px){ 
+}
