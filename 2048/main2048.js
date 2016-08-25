@@ -27,6 +27,9 @@ function prepareForMobile(){
 		$('.gameover').css({
 			top: '50%'
 		});
+		$('.score').css({
+			margin: '-10px auto'
+		});
 	}
 
 	$('#grid_container').css('width', gridContainerWidth-2*cellSpace);
@@ -182,7 +185,7 @@ document.addEventListener('touchend', function(event){
 	var deltax = endx - startx;
 	var deltay = endy - starty;
 
-	if( Math.abs(deltax)<0.3*documentWidth && Math.abs(deltay)<0.3*documentWidth){
+	if( Math.abs(deltax)<0.15*documentWidth && Math.abs(deltay)<0.15*documentWidth){
 		return;
 	}
 
