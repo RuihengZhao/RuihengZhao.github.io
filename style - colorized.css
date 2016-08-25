@@ -234,11 +234,6 @@ a{
 	font-size: 70px;
 }
 
-#infoBox{
-	overflow: hidden;
-	text-align: center;
-}
-
 .button{
 	display:block;
     border:2px solid rgba(255,255,255,0.8);
@@ -637,6 +632,10 @@ a{
 		background-position: 5% 0%;
 	}
 
+	.sub-heading{
+		margin: 20px;
+	}
+
 	.shadow{
 		height: 70%;
 		top: 15%;
@@ -650,6 +649,7 @@ a{
 	}
 
 	#banner .name-wrap h1{
+		margin: 8px 0;
 		font-size: 60px;
 	}
 	
@@ -718,6 +718,7 @@ a{
 	.Hobby .hobby-content{
 		font-size: 18px;
 		margin: 20% 3%;
+		margin-top: 0;
 	}
 
 	.Hobby .hobby-content h1{
