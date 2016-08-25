@@ -118,10 +118,18 @@ a{
 	display: inline-block;
 	height: 20px;
 	width: 20px;
+	-moz-transition:ease 0.4s;
+    -o-transition:ease 0.4s;
+    -webkit-transition:ease 0.4s;
+    transition:ease 0.4s;
 }
 
 #fullpageMenu .closenav a:hover{
 	background: #FFF;
+	-moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
 }
 
 #fullpageMenu .nav{
@@ -458,6 +466,14 @@ a{
 	font-weight: normal;
 	margin-top: 5px;
 	padding: 5px 10px;
+	-moz-transition:ease 0.4s;
+    -o-transition:ease 0.4s;
+    -webkit-transition:ease 0.4s;
+    transition:ease 0.4s;
+}
+
+.general a:hover{
+	color: #777777;
 }
 
 .web_game{

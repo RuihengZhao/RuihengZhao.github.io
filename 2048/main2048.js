@@ -39,6 +39,9 @@ function prepareForMobile(){
 function newgame(){
 	// initialize play board
 	init();	
+	$('.gameover').css({
+		display: 'none'
+	});
 	// Random generate 2 numbers
 	generateOneNumber();
 	generateOneNumber();
@@ -215,7 +218,9 @@ function isgameover(){
 }
 
 function gameover(){
-	alert('Game over!');
+	$('.gameover').css({
+		display: 'block'
+	});
 }
 
 function moveLeft(){
