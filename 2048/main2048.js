@@ -24,6 +24,9 @@ function prepareForMobile(){
 		$('.info').css({
 			width: '300px'
 		});
+		$('.gameover').css({
+			top: '50%'
+		});
 	}
 
 	$('#grid_container').css('width', gridContainerWidth-2*cellSpace);

@@ -51,10 +51,10 @@ header p{
 	font-weight: bold;
 	letter-spacing: 0.1em;
 	color: #8f7a66;
-	width: 18%;
-	left: 41%;
+	width: 100%;
 	top: 45%;
-	display: none;
+	text-align: center;
+	//display: none;
 }
 
 #grid_container{
