@@ -72,6 +72,11 @@ a{
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.highlight{
+	color: #000;
+	border-bottom: 1px solid #000;
+}
+
 #menuicon{
 	position: fixed;
 	right: 0;
@@ -457,9 +462,10 @@ a{
 
 .general .project_description{
 	margin: 1% 20%;
+	line-height: 23px;
 }
 
-.general a{
+.general .project-button a{
 	display: inline-block;
 	background: #FFF;
 	color: #000;
@@ -472,7 +478,7 @@ a{
     transition:ease 0.4s;
 }
 
-.general a:hover{
+.general .project-button a:hover{
 	color: #777777;
 }
 
