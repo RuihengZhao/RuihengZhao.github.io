@@ -984,9 +984,13 @@ a{
 
 	.Motto .motto-content{
 		height: 37%;
-		top: 230%;
+		top: 231%;
 		font-size: 40px;
 		letter-spacing: 0.1em;
+	}
+
+	.general .project_description{
+		margin: 1% 15%;
 	}
 }
 
