@@ -983,18 +983,10 @@ a{
 	}
 
 	.Motto .motto-content{
-		text-align: center;
-		position: fixed;
-		width: 60%;
-		height: 35%;
-		top: 232.5%;
-		left: 20%;
-		color: #FFF;
+		height: 37%;
+		top: 230%;
 		font-size: 40px;
-		font-weight: bold;
 		letter-spacing: 0.1em;
-		overflow: hidden;
-		//background: #333;
 	}
 }
 
