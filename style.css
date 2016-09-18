@@ -959,7 +959,7 @@ a{
 	}
 }
 
-/*Main Three - 10" & 12" screen*/
+/*Main Three - Height < 900px*/
 @media screen and (max-height: 890px){ 
 	#tip{
 		bottom: -10px;
@@ -973,9 +973,9 @@ a{
 	}
 	
 	#banner{
-		width: 40%;
+		width: 30%;
 		top: 27%;
-		left: 32%;
+		left: 35%;
 	}
 
 	#banner .name-wrap h1{
