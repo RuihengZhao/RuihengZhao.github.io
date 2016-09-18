@@ -975,11 +975,26 @@ a{
 	#banner{
 		width: 30%;
 		top: 27%;
-		left: 35%;
+		left: 37%;
 	}
 
 	#banner .name-wrap h1{
 		font-size: 60px;
+	}
+
+	.Motto .motto-content{
+		text-align: center;
+		position: fixed;
+		width: 60%;
+		height: 35%;
+		top: 232.5%;
+		left: 20%;
+		color: #FFF;
+		font-size: 40px;
+		font-weight: bold;
+		letter-spacing: 0.1em;
+		overflow: hidden;
+		//background: #333;
 	}
 }
 
