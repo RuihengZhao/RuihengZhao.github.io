@@ -416,7 +416,7 @@ a{
 	text-align: center;
 	position: fixed;
 	width: 60%;
-	height: 25%;
+	height: 20%;
 	top: 237.5%;
 	left: 20%;
 	color: #FFF;
@@ -486,8 +486,12 @@ a{
 	background: #5cd65c;
 }
 
+.dond{
+	background: rgb(84, 79, 160);
+}
+
 .monoplay{
-	background: #ffdb4d;
+	background: #ff8566;
 }
 
 .compiler{
@@ -495,7 +499,7 @@ a{
 }
 
 .sharepoint{
-	background: #ff8566;
+	background: #ffdb4d;
 }
 
 .more-coming{
@@ -996,8 +1000,8 @@ a{
 
 @media screen and (min-height: 900px) and (max-height: 1000px){
 	.Motto .motto-content{
-		height: 27%;
-		top: 236.5%;
+		height: 23%;
+		top: 240%;
 	}
 }
 
