@@ -74,7 +74,8 @@ a{
 
 .highlight{
 	color: #000;
-	border-bottom: 1px solid #000;
+	font-weight: bold;
+	/* border-bottom: 1px solid #000; */
 }
 
 #menuicon{
@@ -233,7 +234,7 @@ a{
 	position: fixed;
 	height: 40%;
 	width: 25%;
-	top: 30%;
+	top: 35%;
 	left: 39%;
 }
 
@@ -483,18 +484,18 @@ a{
 }
 
 .web_game{
-	background: #5cd65c;
-}
-
-.dond{
 	background: rgb(84, 79, 160);
 }
 
-.tetris{
-	background: rgb(230, 152, 0);
+.ade{
+	background: #5cd65c;
 }
 
-.monoplay{
+.data_viz{
+	background: #ffdb4d;
+}
+
+.camunda{
 	background: #ff8566;
 }
 
@@ -503,7 +504,7 @@ a{
 }
 
 .sharepoint{
-	background: #ffdb4d;
+	background: rgb(230, 152, 0);
 }
 
 .more-coming{
@@ -512,6 +513,10 @@ a{
 	font-weight: bold;
 	font-size: 50px;
 	letter-spacing: 0.4em;
+}
+
+.more-coming a {
+	color: black;
 }
 
 .Hobby{
